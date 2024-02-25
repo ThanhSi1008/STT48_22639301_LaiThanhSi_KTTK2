@@ -1,0 +1,175 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background: url('/hinh/background.png') center center no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin-inline: auto;
+    height: 1000px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-item {
+    padding: 10px 20px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-form {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 15px;
+}
+
+.text-danger {
+    color: red;
+    font-weight: bold;
+}
+
+.btn.btn-primary {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 5px;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.col-7 {
+    flex: 7;
+    align-self: stretch;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.col-5 {
+    flex: 1;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.section-header {
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+    gap: 5px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.button-group {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+form input {
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.gender-container {
+    margin-top: 10px;
+}
+
+.button-group button {
+    background-color: #ccc;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+section {
+    background-color: skyblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.navbar-link:hover {
+    color: skyblue;
+}
+
+.navbar {
+    background-color: pink;
+}
+
+footer {
+    width: 100%;
+    background-color: #677522;
+    color: black;
+    padding: 20px 0;
+    clear: both;
+}
+
+.footer-left {
+    float: left;
+    padding-left: 20px;
+}
+
+.footer-right {
+    float: right;
+    padding-right: 20px;
+}
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
